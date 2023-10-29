@@ -1,0 +1,11 @@
+.card {
+  transition: 0.5s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card:hover p {
+  display: block;
+}
