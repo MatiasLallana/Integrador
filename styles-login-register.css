@@ -58,6 +58,11 @@ input {
 
 .button {
   margin-top: 10px;
+  transition: 0.5s;
+}
+
+.button:hover {
+  transform: scale(1.1);
 }
 
 @media (min-width: 768px) {
