@@ -149,6 +149,18 @@
 }
 
 @media (min-width: 1024px) {
+  .card {
+    transition: 0.5s;
+  }
+
+  .card:hover {
+    transform: scale(1.1);
+  }
+
+  .card:hover p {
+    display: block;
+  }
+
   .contact {
     color: var(--color-text);
     text-align: center;
